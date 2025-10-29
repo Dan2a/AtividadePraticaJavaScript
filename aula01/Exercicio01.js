@@ -7,4 +7,4 @@ abono = leia.questionFloat("Digite o abono: ")
 
 novoSalario = salario + abono
 
-console.log("O novo salário é: " + novoSalario)
+console.log("O novo salário é: " + novoSalario.toFixed(2))
