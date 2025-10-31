@@ -12,7 +12,7 @@ while(cont){
     } else if (idade < 21) {
         menor21 += 1
     } else if (idade > 50) {
-        maior50 += 1
+        maior50 += 1;
     }
 }
 
