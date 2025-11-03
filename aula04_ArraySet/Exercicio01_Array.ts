@@ -1,6 +1,6 @@
 import leia = require("readline-sync");
 
-let cores: Array<string> = new Array<string>();
+const cores: Array<string> = new Array<string>();
 
 for(let i = 0; i < 5; i++){
     let cor = leia.question("Digite uma cor: ");
